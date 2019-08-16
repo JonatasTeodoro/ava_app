@@ -1,4 +1,4 @@
-package com.example.avafest_2019;
+package com.avafest.avafest_2019;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
