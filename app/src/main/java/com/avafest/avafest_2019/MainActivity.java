@@ -102,6 +102,30 @@ public class MainActivity extends AppCompatActivity {
         }
         webView.setWebViewClient(new Callback());
         webView.loadUrl("http://avafest2019.ml/");
+
+
+
+        webView.setWebViewClient(new WebViewClient() {
+            @Override
+            public boolean shouldOverrideUrlLoading(WebView view, String url) {
+
+                if (!url.contains("https://goo.gl") && !url.contains("https://pag")) {
+                    webView.loadUrl(url);
+                    return false;
+                } else {
+                    Intent intent = new Intent(Intent.ACTION_VIEW);
+                    intent.setData(Uri.parse(url));
+                    startActivity(intent);
+                    return true;
+                }
+
+            }
+        });
+
+
+
+
+
         webView.setWebChromeClient(new WebChromeClient(){
             //For Android 3.0+
             public void openFileChooser(ValueCallback<Uri> uploadMsg){
