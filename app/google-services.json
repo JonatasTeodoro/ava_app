@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "134359652476",
+    "firebase_url": "https://avafest-2019.firebaseio.com",
+    "project_id": "avafest-2019",
+    "storage_bucket": "avafest-2019.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134359652476:android:0b9af18643e8080d",
+        "android_client_info": {
+          "package_name": "com.avafest.avafest_2019"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134359652476-7pi089q33rd4c39p5aiaum61dvrui603.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmuN1MvqlRjbhIKiVpXvzNW1V9swbAM10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134359652476-7pi089q33rd4c39p5aiaum61dvrui603.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
